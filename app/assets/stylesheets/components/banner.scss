@@ -1,0 +1,44 @@
+.banner-color{
+  background-color: linear-gradient(to bottom right, rgba(84,203,232,0.7), rgba(147,24,255,0.5));
+}
+.banner img{
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  z-index : 1;
+}
+
+.text-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Archivo Black', sans-serif;
+  color: #FFF2FD;
+  font-size: 50px;
+  text-align: center;
+  z-index : 3;
+}
+
+.join{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Archivo Black', sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 40px; 
+}
+
+.button{
+  color: #fff;
+  background-color: #72CCC2;
+  border-color: #72CCC2;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  list-style: none;
+}

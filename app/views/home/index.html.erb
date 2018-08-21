@@ -1,2 +1,14 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<%= render 'shared/banner' %>
+
+
+<section id="container">
+	<div class="text">
+		<h1>Vous ne devez pas encore connaitre la cuisine Tahitienne</h1>
+		<p>Vous trouverez 3 menus et quelques photos </p>
+	</div>
+
+	<%= render 'shared/tabs' %>
+
+
+	<%= render 'shared/caroussel' %>
+</section>

@@ -1,0 +1,68 @@
+
+.navbar
+{
+	display: flex;
+	background-color:#72CCC2;
+	width: 100%;
+	height: 100px;
+	position: top;
+	z-index : 2;
+}
+
+#navlist {
+	display: flex;
+	flex-direction: row;
+	background-color: #72CCC2;
+	width: 100%;
+	/*margin: 1em;*/
+}
+
+.navleft
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #72CCC2;
+	flex: 3;
+	/*margin: 1em;*/
+	align-items: center;
+	padding: 1em;
+	margin:auto;
+	height: 50px;
+	list-style: none;
+}
+
+.navleft a, .navright a
+{
+	padding: 2em;
+	text-decoration: none;
+	color: #F8D6AB;
+}
+
+.navleft a:visited,	.navright a:visited
+{
+	text-decoration: none;
+	color: #387358;
+}
+
+.navright
+{
+	display: flex;
+	flex-direction: row;
+	background-color: #72CCC2;
+	flex:1;
+	justify-content: flex-end;
+	/*align-items: center;*/
+	margin-right: 100px;
+	height: 50px;
+	list-style: none;
+	/*padding-right:  1em;*/
+	/*margin: 1em;*/
+}
+
+.nav-logo
+{
+	/*height: 100px;
+	width: 35px;*/
+	padding: 20px;
+	height: 100%;
+}

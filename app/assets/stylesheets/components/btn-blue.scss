@@ -1,0 +1,32 @@
+.btn-blue
+{
+	margin-right: 1em;
+	margin-left: 1em;
+	padding: 6px;
+	font:Bold 13px OpenSans;
+	background:#1967C7;
+	color:#E5EA5B;
+	border-radius:2px;
+	border:none;
+	cursor: pointer;
+}
+
+.btn-blue:hover
+{
+	transition-property: width 110%;
+	transition-duration: 0.5s;
+	transition-delay: 0s;
+	background:#FFB700;
+	color: #1967C7;
+	filter: drop-shadow(10px 10px 10px #1967C7);
+}
+
+.btn-blue a:visited
+{
+	color: #9B9191;
+}
+
+.btn-blue a
+{
+	text-decoration: none;
+}

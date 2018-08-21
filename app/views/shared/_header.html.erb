@@ -1,0 +1,24 @@
+<nav class="navbar">
+	<div id="navlist">
+		<ul class="navleft">
+			<li class="nav-logo"><a href=<% root_path %>> <%= image_tag("bottle.png", :class => "avatar-square") %> </a></li>
+			<li class="item"><a href="#">Là ya rien</a></li>
+			<li class="item"><a href="#">Là non plus</a></li>
+		</ul>
+		<ul class="navright">
+			<li>
+				<input id="check01" type="checkbox" name="menu"/>
+			    <label for="check01"> Dropdown </label>
+			    <ul class="submenu">
+			      <li><a href="#">submenu 1</a></li>
+			      <li><a href="#">submenu 2</a></li>
+			    </ul>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<% if false %>
+<%= image_tag("logo.png", :class => "avatar-square") %>
+<%= image_tag("avatar.jpg", alt:"kikoulol", :class => "avatar-litle") %>
+<% end %>

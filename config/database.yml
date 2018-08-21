@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: THP_S08_Mardi_startup-foodtech_production
-  username: THP_S08_Mardi_startup-foodtech
-  password: <%= ENV['THP_S08_MARDI_STARTUP-FOODTECH_DATABASE_PASSWORD'] %>
+  database: THP_S08_Mardi_startup-foodtech_development

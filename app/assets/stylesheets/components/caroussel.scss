@@ -1,0 +1,98 @@
+.slideshow {
+   width: 350px;
+   height: 200px;
+   overflow: hidden;
+   border: 3px solid #F2F2F2;
+}
+
+.slideshow ul {
+    /* 4 images donc 4 x 100% */
+   width: 400%;
+   height: 200px;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slideshow li {
+   float: left;
+}
+
+
+/* My own SlideShow ! */
+
+.wrapper
+{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+
+.container
+{
+   display: flex;
+   /*flex-direction: row;*/
+   text-align: center;
+   /*width: 100%;*/
+}
+
+#caroussel
+{
+   border: solid 5px #72CCC2;
+   width: 700px;
+   height: 400px;
+   position: relative;
+   margin:0 auto;
+}
+
+.picture
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+
+.cercles
+{
+   position: absolute;
+   bottom: 10px;
+   left: 260px;
+}
+
+.cercles span
+{
+   background: none;
+   color: #FFF;
+   padding: 2px 8px;
+   cursor: pointer;
+   margin: 1px;
+   border: solid #72CCC2;
+   border-radius: 50%;
+}
+
+.cercles span:hover, .cercles .active
+{
+   /*background: #FFF;*/
+   color: #72CCC2;
+   border: solid #FFF;
+}
+
+.arrowleft, .arrowright
+{
+   margin: 0 auto;
+   font-size: 10em;
+   flex:1;
+   color: #72CCC2;
+
+}
+
+.arrowleft
+{
+   text-align: right;
+}
+
+.arrowright
+{
+   text-align: left;
+}
