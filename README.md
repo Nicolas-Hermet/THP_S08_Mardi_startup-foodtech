@@ -1,7 +1,12 @@
 # startup-foodtech
 https://nico-h-startup-foodtech.herokuapp.com/
 
-Made Alone (in the dark) with :heart: by @Nico Hermet !
+Made with :heart: in the brand new team !
+- Jérémie Edery
+- Ridwan Baboolall
+- Louis Delestre
+- Nico Hermet
+- Jérémie de Gueltzl
 
 
 ## L'objectif :
