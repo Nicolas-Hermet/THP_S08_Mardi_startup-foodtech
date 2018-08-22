@@ -6,15 +6,16 @@ var caroussel = {
 	timer : null,
 
 	init : function(elem){
-		// alert(nbSlide);
+
 		this.nbSlide = elem.find('.picture').length;
-		// alert(nbSlide);
+
 
 		elem.append("<div class = 'cercles'></div>");
 		for (var i = 1; i <= this.nbSlide; i++){
-			elem.find(".cercles").append("<span>"+"</span>")
+			elem.find(".cercles").append("<span>"+"</span>");
+
 		}
-		elem.find('.cercles span').click(function(){caroussel.gotoSlide(parseInt($(this).text()));})
+		elem.find('.cercles span').click(function(){caroussel.gotoSlide( parseInt($(this).index()+1 ) ); })
 
 
 		this.elem = elem;
